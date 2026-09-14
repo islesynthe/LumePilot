@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#f8f7f4" />
+    <link rel="manifest" href="/assets/manifest-BbQijW9u.webmanifest" />
+    <title>灯光项目工作台</title>
+    <script type="module" crossorigin src="/assets/index-B7E0Vvyh.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Bc1ZZTUc.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

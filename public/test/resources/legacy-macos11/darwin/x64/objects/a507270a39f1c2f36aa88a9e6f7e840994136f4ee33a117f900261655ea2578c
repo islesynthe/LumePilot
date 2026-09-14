@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "productVersion": "0.9.1",
+  "build": 120,
+  "releaseChannel": "PREVIEW",
+  "resourceRevision": 32,
+  "authorityFingerprint": "lumepilot-renderer-authority:0.9.1:120:PREVIEW"
+}

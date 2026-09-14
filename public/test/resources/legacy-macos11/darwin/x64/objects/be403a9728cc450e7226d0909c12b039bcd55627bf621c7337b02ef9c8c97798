@@ -1,0 +1,17 @@
+{
+  "name": "灯光项目工作台",
+  "short_name": "灯光报价",
+  "description": "移动优先的灯光项目报价流程原型",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f7f4",
+  "theme_color": "#f8f7f4",
+  "icons": [
+    {
+      "src": "/pwa-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
