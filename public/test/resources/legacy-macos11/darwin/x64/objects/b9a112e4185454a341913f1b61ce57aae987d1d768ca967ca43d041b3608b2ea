@@ -4106,7 +4106,7 @@
   const FILE_BLOB_STORE_NAME = "file_blob";
   const APP_META_STORE_NAME = "app_meta";
   const productVersion = "0.10.0";
-  const build = 121;
+  const build = 122;
   const releaseChannel = "PREVIEW";
   const rendererNativeCompatibilityFloor = 110;
   const rawApplicationVersionAuthority = {
@@ -12515,7 +12515,7 @@
         joinMode: "Join existing workspace",
         setupMode: "Set up Cloudflare",
         existingMode: "Use existing deployment",
-        existingDescription: "Use an already deployed Worker and bootstrap credentials.",
+        existingDescription: "Use an already deployed Worker, D1 and R2 bundle before its first workspace bootstrap. This reuses the deployment and does not provision replacement resources.",
         memoryOnly: "Passphrases, bootstrap secrets and session tokens are not persisted. Re-authentication is required after the runtime session ends."
       },
       workspaceDiscovery: {
@@ -12586,7 +12586,7 @@
         endpointDescription: "The HTTPS workers.dev endpoint for the existing deployment.",
         workspaceIdDescription: "A stable workspace identifier used by the current Sync v2 binding.",
         passphraseDescription: "Stored only as the short-lived bootstrap continuation input.",
-        bootstrapSecretDescription: "Issued by the Worker setup flow; kept in memory only.",
+        bootstrapSecretDescription: "Issued by the Worker setup flow or deployment owner; kept in memory only.",
         newPassphraseDescription: "The passphrase for this local actor."
       },
       provider: { cloudflare: "Cloudflare" },
@@ -21882,7 +21882,7 @@
         joinMode: "加入已有工作区",
         setupMode: "配置 Cloudflare",
         existingMode: "使用已有部署",
-        existingDescription: "使用已经部署的 Worker 和 bootstrap 凭据。",
+        existingDescription: "用于首次初始化前已经部署好的 Worker、D1 和 R2 bundle。会复用该部署，不会创建替代资源。",
         memoryOnly: "口令、bootstrap secret 和 session token 均不持久化；运行时会话结束后必须重新认证。"
       },
       workspaceDiscovery: {
@@ -21953,7 +21953,7 @@
         endpointDescription: "已有部署的 HTTPS workers.dev 地址。",
         workspaceIdDescription: "当前 Sync v2 binding 使用的稳定工作区标识。",
         passphraseDescription: "只作为短期 bootstrap continuation 输入保留。",
-        bootstrapSecretDescription: "由 Worker setup flow 签发，只保存在内存中。",
+        bootstrapSecretDescription: "由 Worker setup flow 或部署负责人提供，只保存在内存中。",
         newPassphraseDescription: "当前本地 actor 的口令。"
       },
       provider: { cloudflare: "Cloudflare" },
