@@ -4106,7 +4106,7 @@
   const FILE_BLOB_STORE_NAME = "file_blob";
   const APP_META_STORE_NAME = "app_meta";
   const productVersion = "0.10.0";
-  const build = 122;
+  const build = 123;
   const releaseChannel = "PREVIEW";
   const rendererNativeCompatibilityFloor = 110;
   const rawApplicationVersionAuthority = {
