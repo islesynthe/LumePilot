@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "643d94b04f203d4003984bc9abc41ccb71882eb0",
+  "sourceTreeState": "clean",
+  "diagnosticsCenterVisible": true,
+  "internalDiagnosticsEnabled": false,
+  "buildMode": "desktop-embedded",
+  "buildProfile": "desktop-embedded",
+  "resourceRevision": 33
+}
