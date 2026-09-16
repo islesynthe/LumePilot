@@ -3,6 +3,6 @@
   "productVersion": "0.10.0",
   "build": 123,
   "releaseChannel": "PREVIEW",
-  "resourceRevision": 40,
+  "resourceRevision": 41,
   "authorityFingerprint": "lumepilot-renderer-authority:0.10.0:123:PREVIEW"
 }
