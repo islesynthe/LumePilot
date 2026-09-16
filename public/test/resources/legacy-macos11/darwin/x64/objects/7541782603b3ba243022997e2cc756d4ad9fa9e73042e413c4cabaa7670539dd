@@ -1,4 +1,4 @@
-import{M as I,d as t,e as b,s as R,l as q,g as f,a as j,b as A,c as k}from"./index-fy6DziJv.js";const y=(a,o)=>`data:image/svg+xml;utf8,${encodeURIComponent(`
+import{M as I,d as t,e as b,s as R,l as q,g as f,a as j,b as A,c as k}from"./index-DZDN3C5w.js";const y=(a,o)=>`data:image/svg+xml;utf8,${encodeURIComponent(`
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240">
       <rect width="320" height="240" rx="26" fill="#f6f3ec"/>
       <rect x="74" y="38" width="172" height="118" rx="24" fill="${o}"/>
