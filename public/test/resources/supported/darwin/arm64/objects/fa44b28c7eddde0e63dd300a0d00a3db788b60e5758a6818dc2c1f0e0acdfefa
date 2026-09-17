@@ -6048,6 +6048,10 @@
   for (const entityType of SYNC_V2_ACTIVE_ENTITY_TYPES) activeLaneByEntityType[entityType] = "ordinary";
   for (const entityType of SYNC_V2_ACTIVE_PROTECTED_ENTITY_TYPES) activeLaneByEntityType[entityType] = "protected";
   Object.freeze(activeLaneByEntityType);
+  function requiredEmptyAllowedText(value, field2) {
+    if (typeof value !== "string") throw new Error(`Sync payload requires text ${field2}.`);
+    return value;
+  }
   function optionalText(value, field2) {
     if (value === void 0) return void 0;
     if (typeof value !== "string") throw new Error(`Sync payload requires text ${field2}.`);
@@ -6289,11 +6293,11 @@
       id: requiredString(value.id, "id"),
       projectId: requiredString(value.projectId, "projectId"),
       rawText: optionalText(value.rawText, "shipmentReceiptInfo.rawText"),
-      recipientName: requiredString(value.recipientName, "recipientName"),
-      phone: requiredString(value.phone, "phone"),
-      city: requiredString(value.city, "city"),
-      address: requiredString(value.address, "address"),
-      note: requiredString(value.note, "note"),
+      recipientName: requiredEmptyAllowedText(value.recipientName, "recipientName"),
+      phone: requiredEmptyAllowedText(value.phone, "phone"),
+      city: requiredEmptyAllowedText(value.city, "city"),
+      address: requiredEmptyAllowedText(value.address, "address"),
+      note: requiredEmptyAllowedText(value.note, "note"),
       createdAt: requiredString(value.createdAt, "createdAt"),
       updatedAt: requiredString(value.updatedAt, "updatedAt"),
       actorUserId: optionalString(value.actorUserId, "actorUserId"),

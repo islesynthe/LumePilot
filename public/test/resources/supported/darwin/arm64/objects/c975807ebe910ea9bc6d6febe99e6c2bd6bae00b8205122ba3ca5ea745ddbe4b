@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "sourceCommit": "c75f4318c5996e83a198374f388aea818b76158f",
+  "sourceCommit": "8dc527d638556ccd0fc64502bf21808a2943d154",
   "sourceTreeState": "clean",
   "diagnosticsCenterVisible": true,
   "internalDiagnosticsEnabled": false,
   "buildMode": "fresh-resource",
   "buildProfile": "fresh-resource",
-  "resourceRevision": 44
+  "resourceRevision": 45
 }
