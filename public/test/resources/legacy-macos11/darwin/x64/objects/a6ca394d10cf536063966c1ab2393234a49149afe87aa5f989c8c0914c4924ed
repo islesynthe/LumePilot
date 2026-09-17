@@ -4106,7 +4106,7 @@
   const FILE_BLOB_STORE_NAME = "file_blob";
   const APP_META_STORE_NAME = "app_meta";
   const productVersion = "0.10.0";
-  const build = 123;
+  const build = 124;
   const releaseChannel = "PREVIEW";
   const rendererNativeCompatibilityFloor = 110;
   const rawApplicationVersionAuthority = {
@@ -14941,6 +14941,7 @@
       fileRepair: "File repairs required",
       lastSync: "Last successful Sync",
       lastError: "Last remote error code",
+      persistentAuth: "Persistent auth diagnostic",
       liveTitle: "Explicit live provider diagnostics",
       liveDescription: "Public health verifies Worker/D1/R2 reads. An authenticated owner session additionally runs fixed synthetic D1/R2 write-read-delete probes in DEV / TEST.",
       run: "Run live diagnostics",
@@ -24310,6 +24311,7 @@
       fileRepair: "需要修复的文件",
       lastSync: "最近成功 Sync",
       lastError: "最近远端错误码",
+      persistentAuth: "持久认证诊断",
       liveTitle: "显式实时 provider 诊断",
       liveDescription: "公开 health 验证 Worker/D1/R2 读取；已认证 owner session 还会在 DEV / TEST 运行固定的 D1/R2 写入—读取—删除 synthetic probe。",
       run: "运行实时诊断",
