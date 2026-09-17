@@ -1,5 +1,22 @@
 # LumePilot Distribution Changelog
 
+## 2026-09-17 — TEST Resource Revision 48
+
+- Product Version: `0.10.0`
+- Global Build: `124`
+- Release Channel: `PREVIEW`
+- Source `main` SHA: `ebc4caae`
+- `minimumShellBuild`: `124`
+- TEST signer: `lumepilot-resource-test-2026-01`
+
+| Target | Resource | Manifest SHA-256 | Signature SHA-256 | Principal renderer SHA-256 |
+| --- | --- | --- | --- | --- |
+| Supported arm64 / macOS 12+ | `supported-rb48` | `51d7f9e5219ec173fc9e78588a16d69db5c0b53a21b8ea51ac1fe8405b630544` | `2c18ce37c155fef7832f5529150b76718ad8d7cb198dd6ce2927821b00458017` | `8506e19704fb3c22f464faa819cb5d4f19434c66d8a78db7e9b7682b948ec150` |
+| Legacy x64 / macOS 11+ | `legacy-rb48` | `63011f8e5f4f3f645b1f67a510cc8cbb6339a9b2e95e384fde460d95c5815db1` | `3b37f7d649ac673c2175bcdde6bf7f4d3909594217bde4fdd9e930a842ecf1b7` | `8506e19704fb3c22f464faa819cb5d4f19434c66d8a78db7e9b7682b948ec150` |
+
+This is a TEST Resource publication. Production signing, notarization, and
+production-ready status are not claimed.
+
 ## 2026-09-17 — TEST Resource Revision 47
 
 - Product Version: `0.10.0`
