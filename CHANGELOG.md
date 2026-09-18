@@ -1,5 +1,23 @@
 # LumePilot Distribution Changelog
 
+## 2026-09-18 — TEST Resource Revision 50
+
+- Product Version: `0.10.0`
+- Global Build: `124`
+- Release Channel: `PREVIEW`
+- Source `main` SHA: `618abba4`
+- `minimumShellBuild`: `124`
+- TEST signer: `lumepilot-resource-test-2026-01`
+- Structured Sync V2 protected quote convergence correction included.
+
+| Target | Resource | Manifest SHA-256 | Signature SHA-256 | Principal renderer SHA-256 |
+| --- | --- | --- | --- | --- |
+| Supported arm64 / macOS 12+ | `supported-rb50` | `8a7c3249bc4611a008aa4e8cbf02265a38b92021471fb7516eeb8d2898cfb8a9` | `d0c83de3f3130a8e75e88a00a3e73937dc094cdd1383b0209192554ff9047bf4` | `a07f1f54b57bb91b9bee016c73ad285fafc9a5abf3b1dfb19a3ae4bbb16283d4` |
+| Legacy x64 / macOS 11+ | `legacy-rb50` | `039bc3c9d9d8ba3b8e12fede3db7f04ff6b3ea2e70314766684f71837f14bfd2` | `7f1b41fc3e2aaae32108df047b31a5d63ed900ac009ec8ac4a00943ef3ecbd76` | `a07f1f54b57bb91b9bee016c73ad285fafc9a5abf3b1dfb19a3ae4bbb16283d4` |
+
+This is a TEST Resource publication. Production signing, notarization, and
+production-ready status are not claimed.
+
 ## 2026-09-17 — TEST Resource Revision 49
 
 - Product Version: `0.10.0`
