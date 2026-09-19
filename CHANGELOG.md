@@ -1,5 +1,28 @@
 # LumePilot Distribution Changelog
 
+## 2026-09-19 — TEST Resource Revision 51
+
+- Product Version: `0.10.0`
+- Global Build: `124`
+- Release Channel: `PREVIEW`
+- Source `main` SHA: `d92c7ec3d447530f66853813eec3a79cf81a7bbc`
+- `minimumShellBuild`: `124`
+- TEST signer: `lumepilot-resource-test-2026-01`
+- Cumulative renderer Resource including the R50 protected-quote convergence
+  fix, post-R50 Cloud Sync UI refinements, License & Entitlement Foundation
+  Phase 1, and Stage 2 dependency diagnostics with blocker list/count parity.
+- The publication tooling correction aligns dry-run minimum-shell validation
+  with the existing Resource publisher contract; it is not a renderer payload
+  feature.
+
+| Target | Resource | Manifest SHA-256 | Signature SHA-256 | Principal renderer SHA-256 |
+| --- | --- | --- | --- | --- |
+| Supported arm64 / macOS 12+ | `supported-rb51` | `50e15a01dcf621851e182b04eb0b2c10244fec1a2500489fd57e11024ad897cf` | `48fe74f96dd5360899622a5210bf0d40512cedd699526fdef389c8c74cffea29` | `a062cee6e84de32af9c114e214991e21645d796bb9a272f393a4f84ed05df5cc` |
+| Legacy x64 / macOS 11+ | `legacy-rb51` | `26b92c87cd95c9752004be8d618a0c7b28c2b643b6f11f075769230817a7cdfb` | `a5c85b12b11c2c11bae881947d5d5191a0a52016cff71f84978ec2f898991584` | `a062cee6e84de32af9c114e214991e21645d796bb9a272f393a4f84ed05df5cc` |
+
+This is a TEST Resource publication. Production signing, notarization, and
+production-ready status are not claimed.
+
 ## 2026-09-18 — TEST Resource Revision 50
 
 - Product Version: `0.10.0`
