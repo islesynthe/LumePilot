@@ -1,5 +1,32 @@
 # LumePilot Distribution Changelog
 
+## 2026-09-19 — R52 Resource Publication
+
+- Product Version: `0.10.0`
+- Global Build: `124`
+- Release Channel: `PREVIEW`
+- Publication Environment: `INTERNAL_PREVIEW`
+- Production Distribution: `NOT_ENABLED`
+- Resource Build: `52`
+- Resource source SHA: `9e125bbf63b897d19e5331b9c7966bf69a1cdf19`
+- `minimumShellBuild`: `124`
+- Supported Resource Revision: `supported-rb52`
+- Legacy Resource Revision: `legacy-rb52`
+- Signer key ID: `lumepilot-resource-test-2026-01`
+- Publication base: `https://update.isynthe.com/test/`
+- Cumulative renderer Resource includes the bounded Sync V2 legacy dependency
+  admission liveness fix and the Cloud Avatar / Flow Light micro polish already
+  present on `main`.
+
+| Target | Resource | Manifest SHA-256 | Signature SHA-256 | Principal renderer SHA-256 |
+| --- | --- | --- | --- | --- |
+| Supported arm64 / macOS 12+ | `supported-rb52` | `2ae46ada9d7d973ed7144df4483e8e8a87d1bf7f2886fa9a205492552037f994` | `5d3b7d56f26776f5e096a481a2aba7fafafa6988f4152ccbd5cb204c499a9b53` | `dda2862c61e19400b0a67f769c080ea6a0afb398b6d55cc02446a7de1e6b490a` |
+| Legacy x64 / macOS 11+ | `legacy-rb52` | `04c4afa41665ab1f6227bbf95154339304ac0f9dbc39658760ba952d778e8266` | `8bba2fe1de94a6eacbdb596183030b8471b065f0021c0d7128b3b92042f89b29` | `dda2862c61e19400b0a67f769c080ea6a0afb398b6d55cc02446a7de1e6b490a` |
+
+This is an Internal Preview Resource publication. Production signing,
+production distribution, and production-ready status are not claimed; H-1
+remains `OPEN / MAJOR`.
+
 ## 2026-09-19 — TEST Resource Revision 51
 
 - Product Version: `0.10.0`
