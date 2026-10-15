@@ -1,5 +1,20 @@
 # LumePilot Distribution Changelog
 
+## 2026-10-15 — Legacy R55 Internal Preview Resource Patch
+
+- Product: `0.10.0`; Shell Build: `127`; channel: `PREVIEW`.
+- Resource: `legacy-rb55` / revision `55`; target: `legacy-macos11 / darwin / x64`.
+- Source main SHA: `43002437dec33ec79c4ca5c92cae14e2d121d16a`.
+- Minimum / maximum Shell Build: `127 / 127`. Build124/125/126 reject this patch.
+- Signer: `lumepilot-resource-test-2026-01` (existing TEST Ed25519 identity).
+- Manifest SHA-256: `dcd453ab0273f8d24c3af9d6361f2c89afb728ccb67145ac3540f9060bda776e`.
+- Signature SHA-256: `d1d33450deee20bcc91618fe7d49a4397ecdef97546c8a2f0c41c5c899fa6383`.
+- Local signature, source identity, all 25 objects and compatibility checks: PASS.
+- Published entry: `https://update.isynthe.com/test/resources/legacy-macos11/darwin/x64/resource-manifest-v1.json`.
+- Manual stale Cloud connection retirement is available through the existing guarded UI. OS11 activation and manual recovery remain pending physical confirmation.
+- Supported remains R52. Existing objects are retained. This does not change Build127's embedded R54, native shell, Worker, D1 or R2.
+- Internal Preview only; production distribution remains disabled and H-1 remains open.
+
 ## 2026-09-19 — R52 Resource Publication
 
 - Product Version: `0.10.0`
